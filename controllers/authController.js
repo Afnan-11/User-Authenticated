@@ -95,6 +95,8 @@ export const loginController = async (req, res) => {
       expiresIn: '3d',
     })
 
+    
+
     res.status(200).send({
       success: true,
       message: 'Successfully Login',
